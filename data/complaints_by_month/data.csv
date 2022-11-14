@@ -1,0 +1,37 @@
+month,recurrent_complaint_types,count_SR_by_month,percentage_month,count_SR_by_month/complaint,percentage_complaint/month
+1,HEAT/HOT WATER,2752099,8.82 %,358399,13.02 %
+1,HEATING,2752099,8.82 %,221757,8.06 %
+1,Noise - Residential,2752099,8.82 %,203428,7.39 %
+2,HEAT/HOT WATER,2396768,7.68 %,239551,9.99 %
+2,Noise - Residential,2396768,7.68 %,192999,8.05 %
+2,HEATING,2396768,7.68 %,128828,5.38 %
+3,Noise - Residential,2616190,8.38 %,207489,7.93 %
+3,HEAT/HOT WATER,2616190,8.38 %,194179,7.42 %
+3,Street Condition,2616190,8.38 %,161653,6.18 %
+4,Noise - Residential,2425176,7.77 %,229092,9.45 %
+4,Illegal Parking,2425176,7.77 %,133446,5.50 %
+4,Street Condition,2425176,7.77 %,125349,5.17 %
+5,Noise - Residential,2675354,8.57 %,303409,11.34 %
+5,Illegal Parking,2675354,8.57 %,158198,5.91 %
+5,Noise - Street/Sidewalk,2675354,8.57 %,122188,4.57 %
+6,Noise - Residential,2826118,9.06 %,276568,9.79 %
+6,Noise - Street/Sidewalk,2826118,9.06 %,170405,6.03 %
+6,Illegal Parking,2826118,9.06 %,167212,5.92 %
+7,Noise - Residential,2821758,9.04 %,285239,10.11 %
+7,Illegal Parking,2821758,9.04 %,159871,5.67 %
+7,Water System,2821758,9.04 %,153206,5.43 %
+8,Noise - Residential,2751402,8.82 %,271543,9.87 %
+8,Illegal Parking,2751402,8.82 %,157042,5.71 %
+8,Noise - Street/Sidewalk,2751402,8.82 %,138859,5.05 %
+9,Noise - Residential,2684293,8.60 %,301073,11.22 %
+9,Illegal Parking,2684293,8.60 %,175432,6.54 %
+9,Noise - Street/Sidewalk,2684293,8.60 %,129603,4.83 %
+10,Noise - Residential,2535333,8.12 %,229510,9.05 %
+10,HEAT/HOT WATER,2535333,8.12 %,152182,6.00 %
+10,Illegal Parking,2535333,8.12 %,141633,5.59 %
+11,HEAT/HOT WATER,2388163,7.65 %,271203,11.36 %
+11,Noise - Residential,2388163,7.65 %,191160,8.00 %
+11,HEATING,2388163,7.65 %,138282,5.79 %
+12,HEAT/HOT WATER,2336279,7.49 %,271179,11.61 %
+12,Noise - Residential,2336279,7.49 %,198466,8.49 %
+12,HEATING,2336279,7.49 %,146540,6.27 %

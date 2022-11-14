@@ -1,0 +1,16 @@
+agency_name,complaint_type,count_SR_by_agency,count_SR_by_agency/complaint,percentage_in_agency
+New York City Police Department,Noise - Residential,8943589,2889911,32.31 %
+New York City Police Department,Illegal Parking,8943589,1731749,19.36 %
+New York City Police Department,Blocked Driveway,8943589,1306452,14.61 %
+Department of Housing Preservation and Development,HEAT/HOT WATER,7421521,1757917,23.69 %
+Department of Housing Preservation and Development,HEATING,7421521,887720,11.96 %
+Department of Housing Preservation and Development,PLUMBING,7421521,840512,11.33 %
+Department of Transportation,Street Condition,3680622,1155611,31.40 %
+Department of Transportation,Street Light Condition,3680622,1080133,29.35 %
+Department of Transportation,Traffic Signal Condition,3680622,533054,14.48 %
+Department of Sanitation,Request Large Bulky Item Collection,3644155,1073753,29.47 %
+Department of Sanitation,Dirty Conditions,3644155,417008,11.44 %
+Department of Sanitation,Sanitation Condition,3644155,383019,10.51 %
+Department of Environmental Protection,Water System,2175650,806000,37.05 %
+Department of Environmental Protection,Noise,2175650,604089,27.77 %
+Department of Environmental Protection,Sewer,2175650,445863,20.49 %
