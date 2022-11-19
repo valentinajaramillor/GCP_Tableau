@@ -1,0 +1,59 @@
+root
+ |-- agency_name: string (nullable = false)
+ |-- count_service_requests: long (nullable = false)
+ |-- percentage: double (nullable = true)
+
+root
+ |-- agency_name: string (nullable = false)
+ |-- complaint_type: string (nullable = false)
+ |-- count_SR_by_agency: long (nullable = false)
+ |-- count_SR_by_agency/complaint: long (nullable = false)
+ |-- percentage_in_agency: double (nullable = true)
+
+root
+ |-- borough: string (nullable = false)
+ |-- count_service_requests: long (nullable = false)
+ |-- percentage: double (nullable = true)
+
+root
+ |-- open_data_channel_type: string (nullable = false)
+ |-- count_service_requests: long (nullable = false)
+ |-- percentage: double (nullable = true)
+
+root
+ |-- year: integer (nullable = true)
+ |-- open_data_channel_type: string (nullable = false)
+ |-- count_SR_by_year: long (nullable = false)
+ |-- count_SR_by_year/channel: long (nullable = false)
+ |-- percentage: double (nullable = true)
+
+root
+ |-- complaint_type: string (nullable = false)
+ |-- borough: string (nullable = false)
+ |-- incident_zip: string (nullable = false)
+ |-- count_SR_by_complaint: long (nullable = false)
+ |-- count_SR_by_complaint/zipcode: long (nullable = false)
+ |-- percentage_in_complaint: double (nullable = true)
+
+root
+ |-- hour: integer (nullable = true)
+ |-- recurrent_complaint_type: string (nullable = false)
+ |-- count_SR_by_hour: long (nullable = false)
+ |-- count_SR_by_hour/complaint: long (nullable = false)
+ |-- percentage_hour: double (nullable = true)
+
+root
+ |-- agency_name: string (nullable = false)
+ |-- avg_time: double (nullable = true)
+ |-- max_time: double (nullable = true)
+ |-- min_time: string (nullable = false)
+ |-- stddev: double (nullable = true)
+ |-- coefficient_var: double (nullable = true)
+
+root
+ |-- month: integer (nullable = true)
+ |-- recurrent_complaint_types: string (nullable = false)
+ |-- count_SR_by_month: long (nullable = false)
+ |-- percentage_month: double (nullable = true)
+ |-- count_SR_by_month/complaint: long (nullable = false)
+ |-- percentage_complaint/month: double (nullable = true)
