@@ -14,7 +14,7 @@
     },
     {
       "name":"percentage_month",
-      "type":"DECIMAL"
+      "type":"FLOAT"
     },
     {
       "name":"count_SR_by_month_complaint",
@@ -22,7 +22,7 @@
     },
     {
       "name":"percentage_complaint_month",
-      "type":"DECIMAL"
+      "type":"FLOAT"
     }
   ]
 }

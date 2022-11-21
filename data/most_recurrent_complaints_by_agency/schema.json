@@ -18,7 +18,7 @@
     },
     {
       "name":"percentage_in_agency",
-      "type":"DECIMAL"
+      "type":"FLOAT"
     }
   ]
 }

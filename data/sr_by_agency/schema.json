@@ -10,7 +10,7 @@
     },
     {
       "name":"percentage",
-      "type":"DECIMAL"
+      "type":"FLOAT"
     }
   ]
 }

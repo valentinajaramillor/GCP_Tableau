@@ -18,7 +18,7 @@
     },
     {
       "name":"percentage_hour",
-      "type":"DECIMAL"
+      "type":"FLOAT"
     }
   ]
 }

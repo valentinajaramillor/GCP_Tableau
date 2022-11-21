@@ -6,11 +6,11 @@
     },
     {
       "name":"avg_time",
-      "type":"DECIMAL"
+      "type":"FLOAT"
     },
     {
       "name":"max_time",
-      "type":"DECIMAL"
+      "type":"FLOAT"
     },
     {
       "name":"min_time",
@@ -18,11 +18,11 @@
     },
     {
       "name":"stddev",
-      "type":"DECIMAL"
+      "type":"FLOAT"
     },
     {
       "name":"coefficient_var",
-      "type":"DECIMAL"
+      "type":"FLOAT"
     }
   ]
 }

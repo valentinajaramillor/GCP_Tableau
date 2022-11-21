@@ -22,7 +22,7 @@
     },
     {
       "name":"percentage_in_complaint",
-      "type":"DECIMAL"
+      "type":"FLOAT"
     }
   ]
 }
