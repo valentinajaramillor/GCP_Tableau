@@ -87,25 +87,29 @@ def run(argv=None):
     """The main function which creates the pipeline and runs it"""
 
     parser = argparse.ArgumentParser()
+
+    # Name of the bucket with the input files
     parser.add_argument('--input-bucket',
                         dest='input_bucket',
                         required=True,
                         default='data-daimlr',
                         help='GS bucket_name where the input files are present')
 
+    # Name of the folder in which the input files are stored
     parser.add_argument(
         '--input-path',
         dest='input_path',
         required=False,
         help='GS folder name, if the input files are inside a bucket folder')
 
-    # File name with the list of directories of data (one for each table)
+    # File name of the file that stores the list of folders with the data of each report
     parser.add_argument(
-        '--input-files-list',
-        dest='input_files_list',
+        '--input_folders_list',
+        dest='input_folders_list',
         required=True,
-        help='File name of the files list')
+        help='File name of the folders list')
 
+    # Name of the BigQuery Dataset to store the output tables
     parser.add_argument('--bq-dataset',
                         dest='bq_dataset',
                         required=True,
@@ -124,16 +128,17 @@ def run(argv=None):
 
     # Get the list of folders (each with the report name) with the data and schema files
     input_files = get_file_gcs(known_args.input_bucket,
-                               os.path.join(known_args.input_path, known_args.input_files_list)).decode()
+                               os.path.join(known_args.input_path, known_args.input_folders_list)).decode()
     input_files = input_files.split("\n")
 
     # For each report generate a Dataflow job
     for input_file in input_files:
+        
         p = beam.Pipeline(argv=pipeline_args)
 
         logging.info('START - Preparing file %s' % input_file)
 
-        # Get the data file path
+        # Get the CSV data file path
         data_path = os.path.join(
             'gs://' + known_args.input_bucket,
             known_args.input_path,
