@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "name":"agency_name",
+      "type":"STRING"
+    },
+    {
+      "name":"avg_time",
+      "type":"FLOAT"
+    },
+    {
+      "name":"max_time",
+      "type":"FLOAT"
+    },
+    {
+      "name":"min_time",
+      "type":"STRING"
+    },
+    {
+      "name":"stddev",
+      "type":"FLOAT"
+    },
+    {
+      "name":"coefficient_var",
+      "type":"FLOAT"
+    }
+  ]
+}

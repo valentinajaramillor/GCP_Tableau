@@ -41,15 +41,16 @@ import apache_beam as beam
             parsed from string_input.
          """
 def get_file_gcs(bucket_name, path_file):
-    # create storage client
+    # Create Google Cloud Storage Client
     client = storage.Client()
 
-    # get bucket with name
+    # Get bucket by name
     bucket = client.get_bucket(bucket_name)
 
-    # get the blob
+    # Get the blob corresponding to a file in the bucket
     blob = bucket.get_blob(path_file)
 
+    # Download the blob as string, to be transformed by the parse_method
     data = blob.download_as_string()
     return data
 
@@ -73,12 +74,12 @@ class DataIngestion:
         # Strip out carriage return, newline and quote characters.
         values = re.split(",", re.sub('\r\n', '', re.sub('"', '',
                                                          string_input)))
-        # Get the fields name from schema json
+
+        # Get the fields name from the corresponding schema json file
         field_names = tuple(field['name'] for field in schema_json['fields'])
 
-        row = dict(
-            zip(field_names,
-                values))
+        # Create a row as a dictionary of field names and values
+        row = dict(zip(field_names, values))
         return row
 
 
@@ -121,7 +122,7 @@ def run(argv=None):
     # transforming the file into a BigQuery table.
     data_ingestion = DataIngestion()
 
-    # Get the list of folders (reports) with the data and schema files
+    # Get the list of folders (each with the report name) with the data and schema files
     input_files = get_file_gcs(known_args.input_bucket,
                                os.path.join(known_args.input_path, known_args.input_files_list)).decode()
     input_files = input_files.split("\n")
@@ -144,7 +145,7 @@ def run(argv=None):
 
         logging.info('Getting the schema from file')
 
-        # Read the schema from a json file
+        # Read the schema from the corresponding json file
         schema_encode = get_file_gcs(known_args.input_bucket,
                                      os.path.join(known_args.input_path, input_file, 'schema.json'))
 

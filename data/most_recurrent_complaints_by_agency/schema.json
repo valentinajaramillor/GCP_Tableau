@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "name":"agency_name",
+      "type":"STRING"
+    },
+    {
+      "name":"complaint_type",
+      "type":"STRING"
+    },
+    {
+      "name":"count_SR_by_agency",
+      "type":"INTEGER"
+    },
+    {
+      "name":"count_SR_by_agency_complaint",
+      "type":"INTEGER"
+    },
+    {
+      "name":"percentage_in_agency",
+      "type":"FLOAT"
+    }
+  ]
+}
