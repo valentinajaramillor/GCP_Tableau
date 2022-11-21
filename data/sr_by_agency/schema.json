@@ -1,0 +1,16 @@
+{
+  "fields": [
+    {
+      "name":"agency_name",
+      "type":"STRING"
+    },
+    {
+      "name":"count_service_requests",
+      "type":"INTEGER"
+    },
+    {
+      "name":"percentage",
+      "type":"DECIMAL"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "fields": [
+    {
+      "name":"open_data_channel_type",
+      "type":"STRING"
+    },
+    {
+      "name":"count_service_requests",
+      "type":"INTEGER"
+    },
+    {
+      "name":"percentage",
+      "type":"DECIMAL"
+    }
+  ]
+}

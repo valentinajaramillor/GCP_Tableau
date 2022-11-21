@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "name":"year",
+      "type":"INTEGER"
+    },
+    {
+      "name":"open_data_channel_type",
+      "type":"STRING"
+    },
+    {
+      "name":"count_SR_by_year",
+      "type":"INTEGER"
+    },
+    {
+      "name":"count_SR_by_year/channel",
+      "type":"INTEGER"
+    },
+    {
+      "name":"percentage",
+      "type":"DECIMAL"
+    }
+  ]
+}

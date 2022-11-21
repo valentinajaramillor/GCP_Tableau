@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "name":"month",
+      "type":"INTEGER"
+    },
+    {
+      "name":"recurrent_complaint_types",
+      "type":"STRING"
+    },
+    {
+      "name":"count_SR_by_month",
+      "type":"INTEGER"
+    },
+    {
+      "name":"percentage_month",
+      "type":"DECIMAL"
+    },
+    {
+      "name":"count_SR_by_month/complaint",
+      "type":"INTEGER"
+    },
+    {
+      "name":"percentage_complaint/month",
+      "type":"DECIMAL"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "name":"complaint_type",
+      "type":"STRING"
+    },
+    {
+      "name":"borough",
+      "type":"STRING"
+    },
+    {
+      "name":"incident_zip",
+      "type":"STRING"
+    },
+    {
+      "name":"count_SR_by_complaint",
+      "type":"INTEGER"
+    },
+    {
+      "name":"count_SR_by_complaint/zipcode",
+      "type":"INTEGER"
+    },
+    {
+      "name":"percentage_in_complaint",
+      "type":"DECIMAL"
+    }
+  ]
+}

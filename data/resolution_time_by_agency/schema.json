@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "name":"agency_name",
+      "type":"STRING"
+    },
+    {
+      "name":"avg_time",
+      "type":"DECIMAL"
+    },
+    {
+      "name":"max_time",
+      "type":"DECIMAL"
+    },
+    {
+      "name":"min_time",
+      "type":"STRING"
+    },
+    {
+      "name":"stddev",
+      "type":"DECIMAL"
+    },
+    {
+      "name":"coefficient_var",
+      "type":"DECIMAL"
+    }
+  ]
+}
