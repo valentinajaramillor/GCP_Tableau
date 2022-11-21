@@ -1,4 +1,4 @@
-month,recurrent_complaint_types,count_SR_by_month,percentage_month,count_SR_by_month/complaint,percentage_complaint/month
+month,recurrent_complaint_types,count_SR_by_month,percentage_month,count_SR_by_month_complaint,percentage_complaint_month
 1,HEAT/HOT WATER,2752099,0.08818153592483308,358399,0.13022750998419752
 1,HEATING,2752099,0.08818153592483308,221757,0.08057740655405202
 1,Noise - Residential,2752099,0.08818153592483308,203428,0.07391739904705463

@@ -13,7 +13,7 @@
       "type":"INTEGER"
     },
     {
-      "name":"count_SR_by_hour/complaint",
+      "name":"count_SR_by_hour_complaint",
       "type":"INTEGER"
     },
     {

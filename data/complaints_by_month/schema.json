@@ -17,11 +17,11 @@
       "type":"DECIMAL"
     },
     {
-      "name":"count_SR_by_month/complaint",
+      "name":"count_SR_by_month_complaint",
       "type":"INTEGER"
     },
     {
-      "name":"percentage_complaint/month",
+      "name":"percentage_complaint_month",
       "type":"DECIMAL"
     }
   ]

@@ -1,4 +1,4 @@
-year,open_data_channel_type,count_SR_by_year,count_SR_by_year/channel,percentage
+year,open_data_channel_type,count_SR_by_year,count_SR_by_year_channel,percentage
 2010,UNKNOWN,2089568,1159221,0.5547658654803289
 2010,PHONE,2089568,824477,0.39456815954302515
 2010,OTHER,2089568,64712,0.030969080690362794

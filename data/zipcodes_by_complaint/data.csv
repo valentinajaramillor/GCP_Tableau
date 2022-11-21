@@ -1,4 +1,4 @@
-complaint_type,borough,incident_zip,count_SR_by_complaint,count_SR_by_complaint/zipcode,percentage_in_complaint
+complaint_type,borough,incident_zip,count_SR_by_complaint,count_SR_by_complaint_zipcode,percentage_in_complaint
 Noise - Residential,BRONX,10466,2886923,224547,0.07778073748416567
 Noise - Residential,BRONX,10467,2886923,59960,0.0207695182725691
 Noise - Residential,BROOKLYN,11226,2886923,58539,0.020277298701766554

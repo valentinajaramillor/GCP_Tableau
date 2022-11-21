@@ -1,4 +1,4 @@
-hour,recurrent_complaint_type,count_SR_by_hour,count_SR_by_hour/complaint,percentage_hour
+hour,recurrent_complaint_type,count_SR_by_hour,count_SR_by_hour_complaint,percentage_hour
 0,HEATING,4535532,887836,0.14532550536744135
 12,Derelict Vehicles,2022136,323132,0.06479238513182056
 11,Street Light Condition,1896533,171674,0.06076786949602156
