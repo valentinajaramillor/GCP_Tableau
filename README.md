@@ -180,11 +180,17 @@ python3 pipeline.py \
 --bq-dataset=$BQ_DATASET
 ```
 
-## Results and Dashboards
+## 7. Results and Dashboards
 
+### 7.1. Dataflow jobs
+Here you can see some of the jobs listed in the Dataflow Console:
 
-### Reports in BigQuery
+![Dataflow Jobs](./images/dataflow_jobs.png)
 
+### 7.2. BigQuery Tables
+After the jobs are completed (Status: "Succeeded"), you can see the tables in BigQuery, like this:
+
+![BigQuery Tables](./images/bigquery_table_example.png)
 
 ### Dashboards in Tableau
 
