@@ -1,7 +1,3 @@
-channel_evolution_by_year
-complaints_by_month
-most_recurrent_complaints_by_agency
-resolution_time_by_agency
 sr_and_complaint_by_hour
 sr_by_agency
 sr_by_borough
