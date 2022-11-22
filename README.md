@@ -22,20 +22,29 @@ gcloud config set project <YOUR_PROJECT_ID>
 ```shell
 gcloud iam service-accounts create <YOUR_SERVICE_ACCOUNT_NAME>
 
-gcloud projects add-iam-policy-binding premium-student-369313 --member="serviceAccount:dataflowpipeline@premium-student-369313.iam.gserviceaccount.com" --role=roles/bigquery.dataEditor
+gcloud projects add-iam-policy-binding premium-student-369313 \ 
+--member="serviceAccount:dataflowpipeline@premium-student-369313.iam.gserviceaccount.com" \ 
+--role=roles/bigquery.dataEditor
 
-gcloud projects add-iam-policy-binding premium-student-369313 --member="serviceAccount:dataflowpipeline@premium-student-369313.iam.gserviceaccount.com" --role=roles/storage.admin
+gcloud projects add-iam-policy-binding premium-student-369313 \ 
+--member="serviceAccount:dataflowpipeline@premium-student-369313.iam.gserviceaccount.com" \ 
+--role=roles/storage.admin
 
-gcloud projects add-iam-policy-binding premium-student-369313 --member="serviceAccount:dataflowpipeline@premium-student-369313.iam.gserviceaccount.com" --role=roles/dataflow.admin
+gcloud projects add-iam-policy-binding premium-student-369313 \ 
+--member="serviceAccount:dataflowpipeline@premium-student-369313.iam.gserviceaccount.com" \ 
+--role=roles/dataflow.admin
 
-gcloud projects add-iam-policy-binding premium-student-369313 --member="serviceAccount:dataflowpipeline@premium-student-369313.iam.gserviceaccount.com" --role=roles/dataflow.worker
+gcloud projects add-iam-policy-binding premium-student-369313 \ 
+--member="serviceAccount:dataflowpipeline@premium-student-369313.iam.gserviceaccount.com" \ 
+--role=roles/dataflow.worker
 ```
 
 Also, the role "Service Usage Admin" has to be provided also, it can be done through the Google Cloud Console, in IAM & Admin > IAM and editing the principal for the service account that is going to be used.
 
 ### 1.3. Create the keys.json to manage the credentials:
 ```shell
-gcloud iam service-accounts keys create <YOUR_HOME_PATH>/keys.json --iam-account=<YOUR_SERVICE_ACCOUNT_NAME>@<YOUR_PROJECT_ID>.iam.gserviceaccount.com
+gcloud iam service-accounts keys create <YOUR_HOME_PATH>/keys.json \ 
+--iam-account=<YOUR_SERVICE_ACCOUNT_NAME>@<YOUR_PROJECT_ID>.iam.gserviceaccount.com
 ```
 
 ### 1.4. Clone this repository to store it locally in the home path of the Google Cloud Terminal:
@@ -169,14 +178,14 @@ export BQ_DATASET=<YOUR_DATASET_NAME>
 ### 6.2. Running the Dataflow Pipeline
 Run the Dataflow pipeline:
 ```shell
-python3 pipeline.py \
---project=$PROJECT --region= \
---runner=DataflowRunner \
---staging_location=gs://$INPUT_BUCKET/test \
---temp_location gs://$INPUT_BUCKET/test \
---input-bucket=$INPUT_BUCKET \
---input-path=$INPUT_PATH \
---input-folders-list=$FOLDERS_LIST \
+python3 pipeline.py \ 
+--project=$PROJECT --region= \ 
+--runner=DataflowRunner \ 
+--staging_location=gs://$INPUT_BUCKET/test \ 
+--temp_location gs://$INPUT_BUCKET/test \ 
+--input-bucket=$INPUT_BUCKET \ 
+--input-path=$INPUT_PATH \ 
+--input-folders-list=$FOLDERS_LIST \ 
 --bq-dataset=$BQ_DATASET
 ```
 
