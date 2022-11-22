@@ -192,5 +192,9 @@ After the jobs are completed (Status: "Succeeded"), you can see the tables in Bi
 
 ![BigQuery Tables](./images/bigquery_table_example.png)
 
-### Dashboards in Tableau
+### 7.3. Dashboards in Tableau
+The first dashboard shows the visualization of the amount of service requests by agency, complaint type and channel type:
+
+![Dashboard 1](./images/Dashboard_1.png)
+
 
