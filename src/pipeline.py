@@ -32,7 +32,8 @@ from google.cloud import storage
 import apache_beam as beam
 
 
-"""Function to read data files from Cloud Storage
+def get_file_gcs(bucket_name, path_file):
+    """Function to read data files from Cloud Storage
         Args:
             bucket_name: Name of the GCS bucket where files are stored
             path_file: The schema of the data in json format
@@ -40,7 +41,7 @@ import apache_beam as beam
             A dict mapping BigQuery column names as keys to the corresponding value
             parsed from string_input.
          """
-def get_file_gcs(bucket_name, path_file):
+         
     # Create Google Cloud Storage Client
     client = storage.Client()
 
