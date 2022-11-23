@@ -206,4 +206,8 @@ The first dashboard shows the visualization of the amount of service requests by
 
 ![Dashboard 1](./images/Dashboard_1.png)
 
+The second dashboard shows the visualization of the evolution of the amount of service requests over time, to identify what are the hours of the day and months of the year with the most recurrent complaint types, and how has the channel type evolved through the years:
+
+![Dashboard 2](./images/Dashboard_2.png)
+
 
