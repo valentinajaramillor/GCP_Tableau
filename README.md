@@ -210,4 +210,8 @@ The second dashboard shows the visualization of the evolution of the amount of s
 
 ![Dashboard 2](./images/Dashboard_2.png)
 
+The third dashboard shows the visualization of the amount of service requests and the complaint type by zipcode and borough:
+
+![Dashboard 3](./images/Dashboard_3.png)
+
 
