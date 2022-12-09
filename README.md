@@ -202,15 +202,20 @@ After the jobs are completed (Status: "Succeeded"), you can see the tables in Bi
 ![BigQuery Tables](./images/bigquery_table_example.png)
 
 ### 7.3. Dashboards in Tableau
-The first dashboard shows the visualization of the amount of service requests by agency, complaint type and channel type:
+
+First, it is required to create an account in Tableau, to work either in Tableau Desktop or Tableau Online and Cloud. After creating the account, we have to create a Workbook, and assign its Data Sources, in this case we use the BigQuery connection. Then we are prompted to select an authentication method, here we select Sign In using OAuth, and then we must enter the email and password of our account in Google Cloud. Finally, we have to accept the permissions for Tableau to access your Google BigQuery data.
+
+After having successfully connected Tableau with BigQuery, we can start creating the Sheets for each of the charts, and group everything through Dashboards. In my case, I created 3 Dashboards to display different findings in my dataset:
+
+The first dashboard shows the visualization of the amount of service requests by agency, complaint type and channel type.
 
 ![Dashboard 1](./images/Dashboard_1.png)
 
-The second dashboard shows the visualization of the evolution of the amount of service requests over time, to identify what are the hours of the day and months of the year with the most recurrent complaint types, and how has the channel type evolved through the years:
+The second dashboard shows the visualization of the evolution of the amount of service requests over time, to identify what are the hours of the day and months of the year with the most recurrent complaint types, and how has the channel type evolved through the years.
 
 ![Dashboard 2](./images/Dashboard_2.png)
 
-The third dashboard shows the visualization of the amount of service requests and the complaint type by zipcode and borough:
+The third dashboard shows the visualization of the amount of service requests and the complaint type by zipcode and borough.
 
 ![Dashboard 3](./images/Dashboard_3.png)
 
